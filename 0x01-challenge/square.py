@@ -17,7 +17,7 @@ class Square():
         """ Area of the square """
         return self.width * self.height
 
-    def PermiterOfMySquare(self):
+    def perimiter_of_my_square(self):
         """perimeter of class"""
         return (self.width * 2) + (self.height * 2)
 
@@ -31,4 +31,4 @@ if __name__ == "__main__":
     s = Square(height=12, width=9)
     print(s)
     print(s.area_of_my_square())
-    print(s.PermiterOfMySquare())
+    print(s.perimiter_of_my_square())
